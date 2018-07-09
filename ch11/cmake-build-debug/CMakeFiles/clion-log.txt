@@ -1,0 +1,12 @@
+/home/zgx/dependence_package/clion-2017.3.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/zgx/g2o_practice/ch11
+-- Found required Ceres dependency: Eigen version 3.2.10 in /home/zgx/catkin_ws/devel/include/eigen3
+-- Found required Ceres dependency: glog
+-- Found installed version of gflags: /home/zgx/catkin_ws/devel/lib/cmake/gflags
+-- Detected broken gflags install in: /home/zgx/catkin_ws/devel/lib/cmake/gflags, version: 2.1.2 <= 2.1.2 which defines gflags_LIBRARIES = gflags which is not an imported CMake target, see: https://github.com/gflags/gflags/issues/110.  Attempting to fix by detecting correct gflags target.
+-- Found valid gflags target: gflags-shared, updating gflags_LIBRARIES.
+-- Detected gflags version: 2.1.2
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 1.13.0 installed in: /usr/local with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, OpenMP, Multithreading]
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zgx/g2o_practice/ch11/cmake-build-debug

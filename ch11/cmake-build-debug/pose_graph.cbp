@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="pose_graph"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\dependence_package\;CMake Files\..\..\dependence_package\Sophus\;CMake Files\..\..\dependence_package\Sophus\build\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\Ceres\;CMake Files\..\..\catkin_ws\;CMake Files\..\..\catkin_ws\devel\;CMake Files\..\..\catkin_ws\devel\lib\;CMake Files\..\..\catkin_ws\devel\lib\cmake\;CMake Files\..\..\catkin_ws\devel\lib\cmake\gflags\;CMake Files\cmake_modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zgx/g2o_practice/ch11/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zgx/g2o_practice/ch11/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zgx/g2o_practice/ch11/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pose_graph_g2o_lie">
+				<Option output="/home/zgx/g2o_practice/ch11/cmake-build-debug/pose_graph_g2o_lie" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zgx/g2o_practice/ch11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/zgx/dependence_package/Sophus"/>
+					<Add directory="/home/zgx/catkin_ws/devel/include/eigen3"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/zgx/catkin_ws/devel/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 pose_graph_g2o_lie"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pose_graph_g2o_lie/fast">
+				<Option output="/home/zgx/g2o_practice/ch11/cmake-build-debug/pose_graph_g2o_lie" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zgx/g2o_practice/ch11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/zgx/dependence_package/Sophus"/>
+					<Add directory="/home/zgx/catkin_ws/devel/include/eigen3"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/zgx/catkin_ws/devel/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 pose_graph_g2o_lie/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pose_graph_g2o_SE3">
+				<Option output="/home/zgx/g2o_practice/ch11/cmake-build-debug/pose_graph_g2o_SE3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zgx/g2o_practice/ch11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/zgx/dependence_package/Sophus"/>
+					<Add directory="/home/zgx/catkin_ws/devel/include/eigen3"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/zgx/catkin_ws/devel/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 pose_graph_g2o_SE3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pose_graph_g2o_SE3/fast">
+				<Option output="/home/zgx/g2o_practice/ch11/cmake-build-debug/pose_graph_g2o_SE3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zgx/g2o_practice/ch11/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/zgx/dependence_package/Sophus"/>
+					<Add directory="/home/zgx/catkin_ws/devel/include/eigen3"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/zgx/catkin_ws/devel/include"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 pose_graph_g2o_SE3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/zgx/g2o_practice/ch11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zgx/g2o_practice/ch11/pose_graph_g2o_SE3.cpp">
+			<Option target="pose_graph_g2o_SE3"/>
+		</Unit>
+		<Unit filename="/home/zgx/g2o_practice/ch11/pose_graph_g2o_lie_algebra.cpp">
+			<Option target="pose_graph_g2o_lie"/>
+		</Unit>
+		<Unit filename="/home/zgx/g2o_practice/ch11/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/zgx/g2o_practice/ch11/../../dependence_package/Sophus/build/SophusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\dependence_package\Sophus\build\"/>
+		</Unit>
+		<Unit filename="/home/zgx/g2o_practice/ch11/../../../../usr/local/lib/cmake/Ceres/CeresConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/zgx/g2o_practice/ch11/../../../../usr/local/lib/cmake/Ceres/CeresConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/zgx/g2o_practice/ch11/../../../../usr/local/lib/cmake/Ceres/FindEigen.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/zgx/g2o_practice/ch11/../../../../usr/local/lib/cmake/Ceres/FindGlog.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/zgx/g2o_practice/ch11/../../../../usr/local/lib/cmake/Ceres/FindGflags.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/zgx/g2o_practice/ch11/../../../../usr/local/lib/cmake/Ceres/CeresTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/zgx/g2o_practice/ch11/../../../../usr/local/lib/cmake/Ceres/CeresTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/zgx/g2o_practice/ch11/../../catkin_ws/devel/lib/cmake/gflags/gflags-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\catkin_ws\devel\lib\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/zgx/g2o_practice/ch11/../../catkin_ws/devel/lib/cmake/gflags/gflags-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\catkin_ws\devel\lib\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/zgx/g2o_practice/ch11/../../catkin_ws/devel/lib/cmake/gflags/gflags-export.cmake">
+			<Option virtualFolder="CMake Files\..\..\catkin_ws\devel\lib\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/zgx/g2o_practice/ch11/../../catkin_ws/devel/lib/cmake/gflags/gflags-export-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\catkin_ws\devel\lib\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/zgx/g2o_practice/ch11/cmake_modules/FindG2O.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/home/zgx/g2o_practice/ch11/cmake_modules/FindCholmod.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

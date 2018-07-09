@@ -1,0 +1,4 @@
+/home/zgx/g2o_practice/ch8/directMethod/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/zgx/g2o_practice/ch8/directMethod/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zgx/g2o_practice/ch8/directMethod/cmake-build-debug/CMakeFiles/direct_semidense.dir
+/home/zgx/g2o_practice/ch8/directMethod/cmake-build-debug/CMakeFiles/direct_sparse.dir
